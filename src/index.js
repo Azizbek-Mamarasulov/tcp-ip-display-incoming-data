@@ -8,7 +8,7 @@ window.onload = () => {
 function createMsg(msg) {
   const div = document.createElement("div");
   div.className = "msg-container";
-  div.insertAdjacentHTML("beforeend", `<p>${msg.data}</p>`);
+  div.insertAdjacentHTML("beforeend", `<p class="msg-data">${msg.data}</p>`);
   div.insertAdjacentHTML(
     "beforeend",
     `<p class="msg-date">${getDate(msg.date)}</p>`

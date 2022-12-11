@@ -24,6 +24,10 @@
   margin: 5px 0;
 }
 
+.msg-data {
+  word-break: break-all;
+}
+
 .msg-date {
   color: gray;
 }
